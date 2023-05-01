@@ -71,7 +71,7 @@ def Reset_Creator():
 
     # Back Button
     Back = Button(Forgot_Password,text="Back", font="Roboto 15 bold", cursor="hand2", relief=RAISED,
-                  activebackground=BackgroundColor, command=lambda:toLogin(Forgot_Password))
+                  activebackground=BackgroundColor, command=lambda:toLogin(Forgot_Password), bg=ButtonColor)
     Back.place(x=5, y=450)
     Forgot_Password.mainloop()
 
