@@ -1,4 +1,3 @@
-# Tkinter is used to develop this project
 import tkinter
 from tkinter import *
 from tkinter import messagebox
