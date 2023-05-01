@@ -1,0 +1,7 @@
+Name = Vijay Gunwant
+PAN  = 123456qwer
+DOB  = 2003-08-08
+Phone = 1234567890
+AccNo = 7696
+Password = 9220
+Cash = 1075.0
