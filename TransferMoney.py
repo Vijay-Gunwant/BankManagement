@@ -30,6 +30,7 @@ def TransferMoney(Transfer, AccNo, ToAcc, SendAmount):
             final = float(result2[0][0]) + float(SendAmount)
             cursor.execute(f"UPDATE customer SET Cash={final} WHERE Acc={ToAcc};")
             messagebox.showinfo("Transaction Successful", "Money Transfer Complete")
+            con.commit()
             Transfer.destroy()
             Transfer_Creator(AccNo, cash)
             return

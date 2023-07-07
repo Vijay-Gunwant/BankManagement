@@ -1,0 +1,7 @@
+Name = ABC
+PAN  = 12345QWERT
+DOB  = 2002-02-02
+Phone = 1234567890
+AccNo = 1234
+Password = 2345
+Cash = 9876.0
